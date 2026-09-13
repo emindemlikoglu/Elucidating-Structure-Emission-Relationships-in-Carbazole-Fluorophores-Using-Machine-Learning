@@ -1,0 +1,53 @@
+Prob_ID;SMILES;cekirdek_Yapı;Yapısal_ozellikler;Hedef_Analit;Fotofiziksel_Mekanizma;Lambda_abs_nm;Lambda_em_nm;Emisyon_Bolgesi;Biyolojik_Model;Subseluler_Lokalizasyon;Goruntuleme_Tipi;Ana_Biyogoruntuleme_Sonuc;Yapı_ozellik_Notları
+PyCM;c1ccc2c(c1)nc3ccccc23C=Cc4ccn[nH+]c4;3,6-disubstitue karbazol;"Piridinyum tabanlı alıcı; katyonik; lipofilik";Au3+ / Au+;ICT / PET modulasyonu;440.0;540.0;540;Canlı hucreler;Mitokondri;1P & 2P;Gold iyon indirgenmesini izler;Uzun π-sistem 2P sinyalini artırır
+K1;c1ccc2c(c1)nc3ccccc23C=Cc4csc(n4)C;Karbazol-benziliden-tiazol;Hacimli adamantil donor;Tirozinaz, ConA;"ICT; solvatochromism";362.0;485.0;540;Protein modelleri;Protein cepleri;cozelti floresansı;Orta inhibitor;Hacimli grup hidrofobik baglanmayı guclendirir
+K2;c1ccc2c(c1)nc3ccccc23C=Cc4ccc(C#N)cc4;Karbazol-tiazol;para-CN alıcı;Tirozinaz, ConA;ICT artısı;345.0;462.0;540;Protein modelleri;Hidrofobik cep;cozelti floresansı;Artmıs ICT;CN grubu yuk aktarımını artırır
+K3;c1ccc2c(c1)nc3ccccc23C=Cc4ccc([N+](=O)[O-])cc4;Karbazol-tiazol;para-NO2 alıcı;Tirozinaz, ConA;Guclu ICT;362.0;475.0;540;Protein modelleri;ConA;cozelti floresansı;En iyi NLO yanıtı;NO2 guclu elektron cekicidir
+L1;c1ccc2c(c1)nc3ccccc23C=C(C#N)C#N;N-alkil karbazol;CH=CH-malononitril alıcı (AIEE);ER goruntuleme;ICT + AIEE;400.0;475.0;540;HepG2;ER;Konfokal;AIEE ile parlak ER boyaması;Hidrofobiklik + CN ICT guclendirir
+L2;c1ccc2c(c1)nc3ccccc23C=Cc4ncc[nH]4;N-alkil karbazol;Benzimidazol alıcı;Lizozom;"ICT; pH-bagımlı";410.0;485.0;540;HepG2;Lizozom;Konfokal;Asidik ortamda protonlanır;pKa ayarı lokalizasyonu belirler
+3a;c1ccc2c(c1)nc3ccccc23C=Cc4ccc(C)cc4;Karbazol-tiazol;para-CH3 fenil;Protein etkilesimleri;ICT;348.0;437.0;540;Protein testleri;Non-spesifik;cozelti;Orta parlaklık;CH3 orta EDG
+3b;c1ccc2c(c1)nc3ccccc23C=Cc4ccc(OC)cc4;Karbazol-tiazol;para-OCH3 fenil;Protein etkilesimleri;Guclu ICT;369.0;446.0;540;Protein testleri;Non-spesifik;cozelti;Parlaklık yuksek;OCH3 daha guclu EDG
+3c;c1ccc2c(c1)nc3ccccc23C=Cc4ccc(CC(=O)OCC)cc4;Karbazol-tiazol;Ester yan zinciri;Biyogoruntuleme;ICT;355.0;435.0;540;Protein ortamı;Belirsiz;cozelti;En dengeli performans;Ester suda cozunurlugu artırır
+HL-1;c1ccc2c(c1)nc3ccccc23C=Cc4ccc[n+](c5ccccc5)c4;Karbazol bazlı D–π–A+;Benzindoliyum alıcı;Viskozite, CN−;ICT/TICT;525.0;620.0;540;SKOV-3, zebrafish;Mitokondri;Konfokal;Viskozite + CN− tespiti;Cationic yapı mitokondriye yonelir
+Compound_1;c1ccc2c(c1)nc3ccccc23C=Cc4cc[n+](C)c4;9-etilkarbazol-vinil-benzotiyazol;Duplex DNA ve G4;İnterkalasyon;ICT;450.0;584.0;540;HepG2;Nukleus;Konfokal;Guclu DNA baglanması;Katyonik benzotiyazol baglanmayı artırır
+Compound_2;c1ccc2c(c1)nc3ccccc23C=Cc4ccn[n+]c4;Karbazol-benzotiyazol;G4 secici;G4 baglanma;ICT;425.0;559.0;540;HepG2;Sitoplazma/cekirdek;Konfokal;G4 seciciligi yuksek;Taraf zinciri seciciligi belirler
+Cr-Rh;c1ccc2c(c1)nc3ccccc23C=Cc4cc(=O)sn4;Karbazol–rhodanine;Protein (BSA/HSA);ICT artırımı;430;450.0;525.0;540;Cep bolgeleri;Steady-state/TCSPC;28 kat artıs;Rhodanine polar baglanma saglar;
+PCC-EC;c1ccc2c(c1)nc3ccccc23C=Cc4ccc(C(=O)CC)cc4;9-fenil karbazol;"Etil-siyanoasetat; Michael alıcısı";Hidrazin (N2H4);"C=C kırılması; ICT";390.0;535.0;540;Hucre + Zebrafish;Sitoplazma;Konfokal;Ratiometrik mavi-kayma;N2H4 kesme mekanizması
+CBFP;c1ccc2c(c1)nc3ccccc23C=Cc4cc(=O)no4;Karbazol aldehit turevi;Alilamin tetikleyici;Formaldehit;2-aza-Cope rearr.;350.0;400.0;540;HeLa;Sitoplazma;Konfokal;FA icin secici;tetikleyici rearrangement
+Carbazole;c1ccc2c(c1)[nH]c3ccccc23;Karbazol;Planar aromatik çekirdek;Polarite;π–π*;292.0;362.0;340–380;NIH/3T3;Sitoplazma;Wide-field;Zayıf bazal floresans;Referans yapı
+N-Ethylcarbazole;c1ccc2c(c1)c3ccccc3n2CC;N-alkillenmiş karbazol;Hidrofobik yan zincir;Protein;ICT;302.0;392.0;370–410;HeLa;Sitoplazma;CLSM;Protein bağlanmasıyla sinyal artışı;N-alkilasyon
+N-Phenylcarbazole;c1ccc2c(c1)c3ccccc3n2c4ccccc4;N-fenil karbazol;Geniş aromatik sistem;Viskozite;ICT;315.0;420.0;400–440;MCF-7;Sitoplazma;CLSM;Rijit ortamda floresans artışı;Aromatik genişleme
+3,6-Dibromocarbazole;Brc1ccc2c(c1)c3cc(Br)ccc3n2;Halojenli karbazol;Ağır atom etkisi;O2;ISC;310.0;455.0;430–480;A549;Sitoplazma;CLSM;Oksijen duyarlı sönümleme;Ağır atom etkisi
+3,6-Diaminocarbazole;Nc1ccc2c(c1)c3cc(N)ccc3n2;Amino karbazol;Elektron verici gruplar;pH;PET;305.0;415.0;395–435;HeLa;Lizozom;CLSM;Asidik ortamda PET baskılanması;Amin grupları
+Carbazole-CHO;O=CC1=CC2=CC=CC=C2N(C3=CC=CC=C3)C1;Karbazol–aldehit;Karbonil fonksiyonu;Enzim;ICT;335.0;460.0;440–480;HepG2;ER;CLSM;Enzim varlığında floresans artışı;Reaktif karbonil
+Carbazole-CN;N#CC1=CC2=CC=CC=C2N(C3=CC=CC=C3)C1;Karbazol–siyano;Güçlü akseptör;Polarite;ICT;345.0;485.0;470–510;A549;Mitokondri;CLSM;Polar ortamda batokromik kayma;D–π–A yapı
+Hydroxycarbazole;Oc1ccc2c(c1)c3ccccc3n2;Hidroksi karbazol;H-bağı donörü;pH;ESIPT;310.0;430.0;410–450;HeLa;Lizozom;CLSM;pH-bağımlı ESIPT;Fenolik yapı
+Methoxycarbazole;COc1ccc2c(c1)c3ccccc3n2;Metoksi karbazol;Elektron verici;Polarite;ICT;320.0;440.0;420–460;MCF-7;Sitoplazma;CLSM;Ortam polaritesine duyarlı;Donor etkisi
+Carbazole-Stilbene;c1ccc2c(c1)n(c3ccccc3)c4ccc(/C=C/c5ccccc5)cc24;Karbazol–stilben;Uzamış konjugasyon;Viskozite;ICT;335.0;470.0;450–490;MCF-7;Sitoplazma;CLSM;Rijit ortamda güçlü emisyon;Geniş π-sistem
+Carbazole-TPA;c1ccc2c(c1)n(c3ccccc3)c4ccc(N(c5ccccc5)c6ccccc6)cc24;Karbazol–TPA;D–π–D yapı;Membran potansiyeli;ICT;350.0;510.0;490–530;HeLa;Mitokondri;CLSM;Potansiyele duyarlı sinyal;Güçlü donor
+Carbazole-ZnComplex;[Zn]n1c(c2ccc3c(c2)n(c4ccccc4)cc3)c5ccccc15;Karbazol–Zn(II);Metal kompleks;Zn²⁺;CHEF;380.0;580.0;560–600;HepG2;Sitoplazma;CLSM;Zn²⁺ seçici;Kompleks yapı
+Carbazole-CuComplex;[Cu]n1c(c2ccc3c(c2)n(c4ccccc4)cc3)c5ccccc15;Karbazol–Cu(II);Paramanyetik;Cu²⁺;CHEQ;375.0;545.0;525–565;HepG2;Sitoplazma;CLSM;Floresans sönümlenmesi;Cu²⁺ quenching
+CuCM;COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC(=C(C=C2)O)OC)O;Karbazol temelli Cu2+ probu (2P uygun);"Karbazol çekirdeği + Cu2+ bağlayan ünite; iki-foton uyarıma uygun";Cu2+;Koordinasyon-indüklü floresans değişimi;422.0;539.0;HeLa hücreleri;;İki-foton konfokal (ex 860 nm);HeLa hücrelerinde iki-foton görüntüleme ile Cu2+ yanıtı izlendi.;İki-foton biyogörüntüleme protokolü: 10 µM prob, 15 µM Cu2+.;
+3b;C1CCCCC1CCNC(=O)NC2=CC3=NC=CS3=CC2;Benzotiyazol;Üre köprüsü, alifatik zincir, heterosiklik aromatik;Non-spesifik;ICT;360.0;450.0;Hücre hattı;Sitoplazma;Floresans mikroskopi;Orta şiddette stabil floresans;Üre köprüsü yapısal esneklik sağlar;
+FO_Cz3;c1ccc2c(c1)c3ccccc3n2c4ccc(cc4)N(c5ccc(cc5)n6c7ccccc7c8c6cccc8)c9ccc(cc9)n1c2ccccc2c3c1cccc3;Çoklu Karbazol;Çoklu karbazol, yüksek konjugasyon, D–A–D yapı;Non-spesifik;Güçlü ICT;300.0;580.0;Hücre hattı;Sitoplazma;Floresans mikroskopi;Yüksek yoğunluklu floresans;Çoklu donör sistem emisyonu güçlendirir;
+Carbazole-Benzothiazole;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5nc6ccccc6s5)cc42;Karbazol–benzotiyazol;D–π–A;ROS;ICT;365.0;540.0;520–560;HepG2;Mitokondri;CLSM;ROS artışıyla sinyal yükseldi;Akseptör içeren
+Carbazole-Coumarin;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5ccc6oc(=O)ccc6o5)cc42;Karbazol–kumarin;Dual-emisyon;Polarite;FRET;330.0;460.0;440–480;MCF-7;Sitoplazma;CLSM;Ortam duyarlı çift emisyon;Hibrit florofor
+Carbazole-Thiophene;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5ccsc5)cc42;Karbazol–tiyofen;Heteroaromatik köprü;İyonik güç;ICT;340.0;475.0;455–495;A549;Sitoplazma;CLSM;İyonik ortam duyarlılığı;π-köprü
+Carbazole-Pyridine;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5ncccc5)cc42;Karbazol–piridin;Bazik heterohalka;pH;ICT;338.0;480.0;460–500;HeLa;Çekirdek;CLSM;Çekirdek lokalizasyonu;Bazik halka
+Carbazole-Quinoline;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5cccc6ccccc56)cc42;Karbazol–kinolin;Geniş aromatik;DNA;ICT;360.0;525.0;505–545;HeLa;Çekirdek;CLSM;DNA etkileşimi;Planar yapı
+Carbazole-Indole;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5cc[nH]c6ccccc56)cc42;Karbazol–indol;Biyomimetik yapı;Protein;ICT;345.0;500.0;480–520;HepG2;Sitoplazma;CLSM;Protein bağlanması;Doğal motif
+Carbazole-Indolium;c1ccc2c(c1)n(-c3ccccc3)c4ccc(/C=C/[N+]5(CC)C=CC6=CC=CC=C56)cc42;Karbazol–indolyum;NIR florofor;Metabolizma;ICT;420.0;680.0;650–720;HeLa;Sitoplazma;CLSM;NIR hücre görüntüleme;D–π–A NIR
+Carbazole-Cyanine;c1ccc2c(c1)n(-c3ccccc3)c4ccc(/C=C/C=C/[N+]5(C)C=CC6=CC=CC=C56)cc42;Karbazol–siyanin;Uzun π-zincir;Mitokondri;ICT;450.0;720.0;700–760;A549;Mitokondri;CLSM;Derin doku uygun;NIR-II sınırı
+Carbazole-Perimidine;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5n6cccc6nc5)cc42;Karbazol–perimidin;Geniş heterosistem;pH;ICT;355.0;530.0;510–550;HeLa;Çekirdek;CLSM;pH duyarlı çekirdek sinyali;Azotça zengin
+Carbazole-Triazine;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5ncncn5)cc42;Karbazol–triazin;Elektron fakir;Anyon;ICT;365.0;550.0;530–570;MCF-7;Sitoplazma;CLSM;Anyon bağlanması;Akseptör merkez
+Carbazole-Phenanthroline;c1ccc2c(c1)n(-c3ccccc3)c4ccc(c5nc6ccccc6nc5)cc42;Karbazol–fenantroline;Metal bağlayıcı;Metal iyonu;CHEF;370.0;565.0;545–585;HeLa;Sitoplazma;CLSM;Metal ile floresans artışı;Şelatlayıcı
+Carbazole-AIEgen;c1ccc2c(c1)n(-c3ccccc3)c4ccc(C(C)(C)C)cc42;Karbazol–AIE;Sterik engel;Agregasyon;AIE;330.0;470.0;450–490;A549;Sitoplazma;CLSM;Agregasyonda parlaklık;AIE aktif
+Carbazole-LipidProbe;c1ccc2c(c1)n(-c3ccccc3)c4ccc(CCCCCCCC)cc42;Karbazol–alkil;Uzun alkil zincir;Lipid;ICT;325.0;455.0;435–475;HeLa;Hücre zarı;CLSM;Zar seçiciliği;Lipofilik
+Carbazole-NucleusProbe;c1ccc2c(c1)n(-c3ccccc3)c4ccc(N=C(N)N)cc42;Karbazol–guanidin;Pozitif yük;DNA;ICT;340.0;505.0;485–525;HeLa;Çekirdek;CLSM;DNA-bağlanma;Bazik grup
+Carbazole-NIRProbe;c1ccc2c(c1)n(-c3ccccc3)c4ccc(C=CC=CC=C)cc42;Karbazol–polien;Uzamış π;Doku;ICT;460.0;760.0;740–800;HeLa;Sitoplazma;CLSM;Derin doku uygun;NIR-emisyon
+Carbazole-DeepRed;c1ccc2c(c1)n(-c3ccccc3)c4ccc(C=Cc5ccc(C=C)cc5)cc42;Karbazol–extended;Kırmızı emisyon;Hücre;ICT;410.0;650.0;630–680;A549;Sitoplazma;CLSM;Kırmızı kanal görüntüleme;Geniş konjugasyon
+Carbazole-PhotoSwitch;c1ccc2c(c1)n(-c3ccccc3)c4ccc(N=N)cc42;Karbazol–azo;Fotoizomer;Işık;Photoswitch;360.0;540.0;520–560;HeLa;Sitoplazma;CLSM;Işıkla sinyal kontrolü;Azo bağ
+Carbazole-pHProbe;c1ccc2c(c1)n(-c3ccccc3)c4ccc(C(=O)O)cc42;Karbazol–karboksil;Asidik uç;pH;PET;305.0;430.0;410–450;HeLa;Lizozom;CLSM;pH-bağımlı floresans;Protonlanma
+Carbazole-IonProbe;c1ccc2c(c1)n(-c3ccccc3)c4ccc(OCCO)cc42;Karbazol–eter;İyon bağlayıcı;K⁺;ICT;325.0;450.0;430–470;MCF-7;Sitoplazma;CLSM;İyon duyarlılığı;Eter köprü
+Carbazole-ProteinProbe;c1ccc2c(c1)n(-c3ccccc3)c4ccc(C(=O)N)cc42;Karbazol–amid;Protein afinitesi;Protein;ICT;335.0;470.0;450–490;HepG2;Sitoplazma;CLSM;Protein seçiciliği;Amid bağ
+Carbazole-ApoptosisProbe;c1ccc2c(c1)n(-c3ccccc3)c4ccc(C=O)cc42;Karbazol–aldehit;Reaktif grup;Apoptoz;ICT;340.0;480.0;460–500;HeLa;Mitokondri;CLSM;Apoptoz sırasında artış;Reaktif uç
