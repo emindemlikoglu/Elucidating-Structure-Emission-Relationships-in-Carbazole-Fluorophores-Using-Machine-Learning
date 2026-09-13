@@ -67,6 +67,22 @@ No smoothing, normalization, or synthetic augmentation was applied — every val
 
 **Diversity check:** pairwise Tanimoto similarity ranged between **0.45–0.75**, with no pair near unity — confirming zero duplicate structures in the curated set.
 
+### 📦 This Repository's Dataset File
+
+> **Note:** the results below (R² = 0.88 / 0.90, etc.) are the paper's internally validated results on the curated **35-molecule** set. This repository ships an **extended demo dataset of 52 carbazole derivatives** (`data/prob_veriseti.csv`), used to demonstrate and stress-test the full pipeline (fingerprinting → PCA → clustering → regression) on a broader structural pool — in line with the paper's stated future-work direction of *"expanding the dataset with new, independently reported derivatives."* This extended set has not undergone the same peer-reviewed curation as the original 35 and should be treated as a pipeline-demonstration / development dataset, not a like-for-like reproduction of the published results.
+
+| | |
+|---|---|
+| Published study (Chemical Physics, 2026) | 35 curated carbazole derivatives |
+| This repository's demo dataset | 52 carbazole derivatives |
+| Absorption range (demo set) | ~290–525 nm |
+| Emission range (demo set) | ~362–760 nm |
+
+**Curation rules applied when building the demo dataset:**
+- Molecule must have a chemically valid SMILES string (parseable and sanitizable with RDKit)
+- Molecule must have complete absorption and emission wavelength values
+- Duplicate structures (identical canonical SMILES) removed
+
 ---
 
 ## 📊 Key Results
@@ -114,16 +130,17 @@ Structural fingerprints alone — with no emission labels — recovered four sep
 
 ```
 .
-├── data/                  # Curated carbazole dataset (SMILES + absorption/emission values)
-├── notebooks/             # Analysis and modeling notebooks (.ipynb)
-├── src/                   # Reusable Python modules (.py)
-├── results/               # Generated plots (PCA map, clustering, Stokes shift, feature importance)
-├── requirements.txt       # Python dependencies
-├── LICENSE                # MIT License
+├── data/
+│   └── prob_veriseti.csv       # Curated carbazole dataset (SMILES + absorption/emission values)
+├── src/
+│   └── carbazole_ml_pipeline.py  # Full pipeline: fingerprints → PCA → K-Means → Random Forest
+├── results/                    # Generated plots (PCA map, clustering, Stokes shift, feature importance)
+├── requirements.txt             # Python dependencies
+├── LICENSE                      # MIT License
 └── README.md
 ```
 
-> Note: `data/`, `notebooks/`, `src/`, and `results/` will be populated as files are added to the repository.
+> Note: `results/` will be populated once output plots are added.
 
 ---
 
@@ -160,13 +177,13 @@ jupyter
 
 ## 🚀 Usage
 
-```bash
-# Run the analysis via Jupyter
-jupyter notebook notebooks/
+Place the curated dataset at `data/prob_veriseti.csv`, then run the full pipeline:
 
-# or as a script (example — update once real filenames are added)
-python src/train_model.py --data data/carbazole_dataset.csv
+```bash
+python src/carbazole_ml_pipeline.py
 ```
+
+This single script performs the entire workflow described above — Morgan fingerprint encoding, Tanimoto diversity check, PCA, K-Means clustering, Random Forest regression (with 5-fold cross-validation and feature importance), and prediction for a set of example carbazole SMILES.
 
 ---
 
